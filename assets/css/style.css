@@ -2,3 +2,130 @@
 /* Unit 4 Game */
 /* style.css */
 /* Custom css linked by index.html */
+
+/* TYPOGRAPHY STYLES BY ELEMENT */
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+p {
+    margin-left: 15px;
+}
+
+/* TYPOGRAPHY STYLES BY ID */
+
+#random-num-display{
+    font-weight: 200;
+    color: orange;
+}
+
+/* SECTION STYLES BY ID */
+
+#page-title{
+    background: orange;
+    margin: 25px;
+    padding-left: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 300px;
+    border-radius: 12px;
+    border: solid 3px darkgray; 
+}
+
+#instructions-section{
+    background: beige;
+    width: 450px;
+    margin: 25px;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 125px;
+    border-radius: 12px;
+    border: solid 3px darkgray;
+}
+
+#random-num-panel{
+    background: seagreen;
+    width: 250px;
+    margin: 25px;
+    height: 180px;
+    padding-left: 25px;
+    padding-top: 25px;
+    border-radius: 12px;
+    border: solid 3px lightgray;
+    float: left;
+
+}
+
+#WL-panel{
+    background: rgb(0, 255, 213);
+    margin: 25px;
+    width: 100px;
+    height: 180px;
+    padding-left: 25px;
+    padding-top: 25px;
+    border-radius: 12px;
+    border: solid 3px lightgray;
+    float: left;
+}
+
+#clickable-crystals{
+    clear: both;
+    background: grey;
+    margin: 25px;
+    padding: 15px;
+    width:750px; 
+    border-radius: 12px;
+}
+
+#score-count-header{
+    background: green;
+    margin:25px;
+    margin-top:15px;
+    padding:15px;
+    width: 150px;
+    border-radius: 12px;
+    border: solid 3px lightgray;
+
+}
+
+#score-display-panel{
+    background: green;
+    margin:25px;
+    width:200px;
+    padding:15px;
+    border-radius: 12px;
+    border: solid 3px lightgray;
+
+}
+
+/* SECTION STYLES BY CLASS */
+.clearIt{
+    clear: both;
+}
+
+/* IMAGE STYLES */
+
+.crystal-images{
+    width: 150px;
+    margin:15px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 7px black;
+}
+
+#crystal-purple{
+    border: solid 2px purple;
+}
+
+#crystal-blue{
+    border: solid 2px blue;
+}
+
+#crystal-yellow{
+    border: solid 2px yellow;
+}
+
+#crystal-green{
+    border: solid 2px green;
+}
